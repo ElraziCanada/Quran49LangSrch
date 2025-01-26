@@ -7,6 +7,7 @@ El-Razi Company – Canada, please to present to Muslims Community a QURAN progr
 Quran Search Engine by 49-Languages Reviewing Chapters
  
 http://elrazi.azurewebsites.net/Quran/QuranSrch49Lang.html
+
 The above web link represents a solution for the Quran Search Engine in 49 languages. The Quran Search Engine is a means for identifying different interpretations of language, recitation by Alsudais and interpretation by Sharawi , Ibn Kathir, Tabary and others..
  
 Quran Search Engine by 49-Languages Reviewing Verses by  Entering Char-By-Char
