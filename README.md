@@ -46,6 +46,8 @@ http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?WSDL
 
 http://elrazi.azurewebsites.net/Quran/QuranServices.wsdl
 
+The following calls to this WSDLS using HTML with assistance, of JQUERY, Javascript and AJAX
+
 
 1.     Quran-search engine by 49-languages by TEXT:
 
