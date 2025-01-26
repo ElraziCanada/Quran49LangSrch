@@ -44,6 +44,8 @@ WSDL:
 
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?WSDL
 
+In HTML-text Format:
+
 http://elrazi.azurewebsites.net/Quran/QuranServices.wsdl
 
 The following calls to this WSDLS using HTML with assistance, of JQUERY, Javascript and AJAX
