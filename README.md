@@ -36,6 +36,7 @@ Hindi             :           क़बिलों
 Philippine    :           magkakilalahan
 
 SOAP API WSDL-method: 
+
 I have developed a web service languages, specification (WSDL), which you can use to call it for any purpose, including Facebook. Here are sample HTML pages that provide access to the web service in 49 languages. Searching by Text/Verse-no method using 49-languages.
 
 WSDL:   http://elrazi.azurewebsites.net/ Quran/QuranServices.asmx?WSDL
