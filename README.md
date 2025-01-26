@@ -43,11 +43,11 @@ WSDL:   http://elrazi.azurewebsites.net/ Quran/QuranServices.asmx?WSDL
 
 1.     Quran-search engine by 49-languages by TEXT:
 
-        http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
+   http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
 
 2.     Quran-search engine by 49-languages by VERSE-No:
 
-       http://elrazi.azurewebsites.net/Quran/QuranSrchByNo.html
+   http://elrazi.azurewebsites.net/Quran/QuranSrchByNo.html
 
 From the search results, you will be able to get the chapters and verses for the selected language. You will achieve an output in REST-API, JSON-FORMAT, when consuming WSDL/ web-service.
 
