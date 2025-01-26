@@ -42,7 +42,7 @@ I have developed a web service languages, specification (WSDL), which you can us
 
 WSDL:   
 
-http://elrazi.azurewebsites.net/ Quran/QuranServices.asmx?WSDL
+http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?WSDL
 
 http://elrazi.azurewebsites.net/Quran/QuranServices.wsdl
 
