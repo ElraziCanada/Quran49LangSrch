@@ -25,6 +25,8 @@ QuranServices for SrchQuranByNo
 
 http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByNo
 
+                                       ................................................     
+
 
 The following operations are supported. For a formal definition, please review the Service Description.
 
@@ -43,7 +45,9 @@ Test
 
 The test form is only available for requests from the local machine.
 
-SOAP 1.1
+
+                                       ................................................     
+SOAP Request
 
 The following is a sample SOAP 1.1 request and response. The placeholders shown need to be replaced with actual values.
 
@@ -78,7 +82,9 @@ SOAPAction: "http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByNo"
   
 </soap:Envelope>
 
-Responses:
+
+                                       ................................................     
+SOAP Responses:
 
 The response is text containing the verse and translation in the chosen language
 
@@ -99,6 +105,7 @@ The response is text containing the verse and translation in the chosen language
 </soap:Envelope>
 
 
+                                       ................................................     
 
 Quran-search engine by 49-languages by VERSE-No:
 
