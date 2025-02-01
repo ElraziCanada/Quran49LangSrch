@@ -43,12 +43,9 @@ QuranServices
 
 
 The following operations are supported. For a formal definition, please review the Service Description.
-•	SrchQuranByNo
-QURAN Searxh Engine By Ayah
+
 •	SrchQuranByText
 QURAN Searxh Engine By Text
-•	ibnMnzTransQuran
-QURAN Ibn Manzour Translation 
 
 
 QuranServices Testing SrchQuranByText
