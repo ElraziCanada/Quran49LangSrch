@@ -1,3 +1,6 @@
+
+Quran by 49-languages Reviewed and Searched http://elrazi.azurewebsites.net/Quran/
+
 SOAP-API-WSDL-Method:
 
 El-Razi Company – Canada,  have developed a web service languages, specification (WSDL). Calling this WSDL will help you in developing a new Search-Engine for Quran-by-49-languages. This WSDLS includes WEB-METHODS-API, which you can call the to search QURAN-BY-49-Languages by Text (i.e QuranSrchByText.html) or Verse-No (i.e. QuranSrchByNo.html). Also, you will get interpretation in IBN-Katheer, IBN-Manzour. You will achieve an output in XML and JSON-FORMAT to be using by REST-API, when consuming WSDL/ web-service.
