@@ -1,5 +1,3 @@
-Quran49LangSrch
-
 Quran by 49-languages Reviewed and Searched http://elrazi.azurewebsites.net/Quran/
 
 SOAP-API-WSDL-Method:
