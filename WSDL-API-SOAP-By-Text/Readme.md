@@ -37,6 +37,87 @@ These programs are in a bilingual manner using Arabic/English, and automatic be 
 
 Quran Search Engine by 49-Languages Reviewing Chapters
 
+Testing Webservice WSDL
+
+QuranServices
+
+
+The following operations are supported. For a formal definition, please review the Service Description.
+•	SrchQuranByNo
+QURAN Searxh Engine By Ayah
+•	SrchQuranByText
+QURAN Searxh Engine By Text
+•	ibnMnzTransQuran
+QURAN Ibn Manzour Translation 
+
+
+QuranServices Testing SrchQuranByText
+
+
+Click here for a complete list of operations.
+SrchQuranByText
+QURAN Searxh Engine By Text
+Test
+The test form is only available for requests from the local machine.
+SOAP 1.1
+The following is a sample SOAP 1.1 request and response. The placeholders shown need to be replaced with actual values.
+POST /Quran/QuranServices.asmx HTTP/1.1
+Host: elrazi.azurewebsites.net
+Content-Type: text/xml; charset=utf-8
+Content-Length: length
+SOAPAction: "http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByText"
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <SrchQuranByText xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+      <SrchTextPar>string</SrchTextPar>
+    </SrchQuranByText>
+  </soap:Body>
+</soap:Envelope>
+HTTP/1.1 200 OK
+Content-Type: text/xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <SrchQuranByTextResponse xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+      <SrchQuranByTextResult>string</SrchQuranByTextResult>
+    </SrchQuranByTextResponse>
+  </soap:Body>
+</soap:Envelope>
+SOAP 1.2
+The following is a sample SOAP 1.2 request and response. The placeholders shown need to be replaced with actual values.
+POST /Quran/QuranServices.asmx HTTP/1.1
+Host: elrazi.azurewebsites.net
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <SrchQuranByText xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+      <SrchTextPar>string</SrchTextPar>
+    </SrchQuranByText>
+  </soap12:Body>
+</soap12:Envelope>
+HTTP/1.1 200 OK
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <SrchQuranByTextResponse xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+      <SrchQuranByTextResult>string</SrchQuranByTextResult>
+    </SrchQuranByTextResponse>
+  </soap12:Body>
+</soap12:Envelope>
+
+
+
+
 http://elrazi.azurewebsites.net/Quran/QuranSrch49Lang.html
 
 The above web link represents a solution for the Quran Search Engine in 49 languages. The Quran Search Engine is a means for identifying 
