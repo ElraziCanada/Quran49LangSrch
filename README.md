@@ -19,6 +19,8 @@ The above web link represents a solution that helps you review the Quran chapter
 Reviewing Arabic-Tongue  By Ibn-Manzoor Reviewing Root-Of-Word
 
 http://elrazi.azurewebsites.net/Quran/ArabTongueIbnMnzr.html
+
+El-Razi Company – Canada, have developed a web service languages, specification (WSDL). Calling this WSDL will help you in developing a new Search-Engine for Quran-by-49-languages. This WSDLS includes WEB-METHODS-API, which you can call the to search QURAN-BY-49-Languages by Text (i.e QuranSrchByText.html) or Verse-No (i.e. QuranSrchByNo.html). Also, you will get interpretation in IBN-Katheer, IBN-Manzour. You will achieve an output in XML and JSON-FORMAT to be using by REST-API, when consuming WSDL/ web-service.
  
 The above web link represents a solution that helps you that helps you review the Arabic-Tongue Dictionary By Ibn-Manzoor program. Specifically the Arabic meaning for Arabic statements or word that appear during reading Quran. You can search for the root of a word by entering character by character/letter and each entry will present a list of the words starting by the letters entered. You will review the root-of-the-word character by character. When pressing any character a list of words show to you then entering the 2nd and 3d character and the list of the words appeared based on your selection.
  
