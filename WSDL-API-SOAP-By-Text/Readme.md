@@ -43,6 +43,8 @@ Testing SrchQuranByText - QURAN Search Engine By Text
 http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByText
 
 
+                                       ................................................     
+
 Click here for a complete list of operations, for SrchQuranByText,  QURAN Search Engine By Text. The test form is only available for requests from the local machine.
 
 SOAP  - Request
