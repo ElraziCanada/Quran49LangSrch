@@ -43,7 +43,9 @@ http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
                                        ................................................     
 
 Click here for a complete list of operations, for SrchQuranByText,  QURAN Search Engine By Text. The test form is only available for requests from the local machine.
+
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=SrchQuranByText
+
 
 SOAP  - Request
 
