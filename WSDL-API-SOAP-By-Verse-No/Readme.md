@@ -21,6 +21,7 @@ The following calls to this WSDLS using HTML with assistance, of JQUERY, Javascr
 
 Quran-search engine by 49-languages by TEXT:
 
+
 http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
 
 
