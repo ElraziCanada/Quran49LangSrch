@@ -1,5 +1,5 @@
 SOAP-API-WSDL-Method:
-https://github.com/ElraziCanada/Quran49LangSrch
+http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?WSDL
 
 
 El-Razi Company – Canada,  have developed a web service languages, specification (WSDL), which you can use to call it for any purpose, including Facebook. Here are sample HTML pages that provide access WSDLS. The WSDLS can be called by Java, .NET-C# or PYTHON which enable you to search QURAN-BY-49-Languages by text or verse no. including translation in English or IBN-Manzour.
