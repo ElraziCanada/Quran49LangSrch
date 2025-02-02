@@ -11,12 +11,15 @@ QuranServices
 
 The following operations are supported. For a formal definition, please review the Service Description.
 •	SrchQuranBy:  QURAN Search Engine By  By Verse No
+
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=SrchQuranByNo
 
 •	SrchQuranByText: QURAN Search Engine By Text in any Langauge
+
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=SrchQuranByText
 
 •	ibnMnzTransQuran:   QURAN Ibn Manzour Arabic Tongue Translation 
+
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=ibnMnzTransQuran
 
 •	
