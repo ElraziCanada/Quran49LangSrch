@@ -36,6 +36,7 @@ http://elrazi.azurewebsites.net/Quran/QuranSrchByNo.html
 The following operations are supported. For a formal definition, please review the Service Description.
 
 •	SOAP for SrchQuranByNo
+
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=SrchQuranByNo
 
 QURAN Searxh Engine By Ayah
