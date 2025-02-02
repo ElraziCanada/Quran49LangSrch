@@ -29,7 +29,7 @@ http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=ibnMnzTransQuran
 
 QuranServices for SrchQuranByNo
 
-http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByNo
+http://elrazi.azurewebsites.net/Quran/QuranSrchByNo.html
 
 The following operations are supported. For a formal definition, please review the Service Description.
 
@@ -172,6 +172,7 @@ soap:Body
                                    ................................................     
 
 QURAN Ibn Manzour Arabic Tongue Translation
+https://elrazi.azurewebsites.net/Quran//ibnMnzTransQuran.html
 
 Test
 
