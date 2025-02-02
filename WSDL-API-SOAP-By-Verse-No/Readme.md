@@ -24,16 +24,18 @@ Quran-search engine by 49-languages by TEXT:
 http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
 
 
-QuranServices for SrchQuranByNo
+Quran-search engine by 49-languages by No:
 
-http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByNo
+http://elrazi.azurewebsites.net/Quran/QuranSrchByNo.html
+
 
                                        ................................................     
 
 
 The following operations are supported. For a formal definition, please review the Service Description.
 
-•	SrchQuranByNo
+•	SOAP for SrchQuranByNo
+http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=SrchQuranByNo
 
 QURAN Searxh Engine By Ayah
 
