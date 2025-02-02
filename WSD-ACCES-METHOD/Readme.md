@@ -96,3 +96,75 @@ soap:Body
 </soap:Envelope>
 
                                    ................................................     
+
+Quran-search engine by 49-languages by TEXT:
+
+http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
+
+Quran-search engine by 49-languages by VERSE-No:
+
+http://elrazi.azurewebsites.net/Quran/QuranSrchByNo.html
+
+From the search results, you will be able to get the chapters and verses for the selected language. You will achieve an output in XML and JSON-FORMAT to be using by REST-API, when consuming WSDL/ web-service.
+
+                                   ................................................     
+Testing Webservice WSDL
+
+Quran-Services (WSDSL)
+
+The following operations are supported. For a formal definition, please review the Service Description.
+
+Testing SrchQuranByText - QURAN Search Engine By Text
+
+http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByText
+
+                                   ................................................     
+Click here for a complete list of operations, for SrchQuranByText, QURAN Search Engine By Text. The test form is only available for requests from the local machine.
+
+SOAP - Request
+
+The following is a sample SOAP 1.1 request and response. The placeholders shown need to be replaced with actual values.
+
+POST /Quran/QuranServices.asmx HTTP/1.1
+
+Host: elrazi.azurewebsites.net
+
+Content-Type: text/xml; charset=utf-8
+
+Content-Length: length
+
+SOAPAction: "http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByText"
+
+WSDL-REquest-ResponseLAYOUT
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+soap:Body
+
+<SrchQuranByText xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+
+  <SrchTextPar>string</SrchTextPar>
+</SrchQuranByText>
+</soap:Body>
+
+</soap:Envelope>
+
+                                   ................................................     
+SOAP - Response:
+
+The response is text containing the verse and translation in the chosen language
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+soap:Body
+
+<SrchQuranByTextResponse xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+
+  <SrchQuranByTextResult>string</SrchQuranByTextResult>
+  
+</SrchQuranByTextResponse>
+</soap:Body>
+
+</soap:Envelope>
+
+                                   ................................................     
