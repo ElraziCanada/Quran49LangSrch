@@ -22,4 +22,77 @@ http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=SrchQuranByText
 
 http://elrazi.azurewebsites.net/Quran/QuranServices.asmx?op=ibnMnzTransQuran
 
-•	
+
+                                   ................................................     
+
+QuranServices for SrchQuranByNo
+
+http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByNo
+
+The following operations are supported. For a formal definition, please review the Service Description.
+
+• SrchQuranByNo
+
+QURAN Searxh Engine By Ayah
+
+QuranServices Testing SrchQuranByNo
+
+Click here for a complete list of operations.
+
+SrchQuranByNo - QURAN Searxh Engine By Ayah
+
+Test
+
+The test form is only available for requests from the local machine.
+
+                                   ................................................     
+SOAP Request
+
+The following is a sample SOAP 1.1 request and response. The placeholders shown need to be replaced with actual values.
+
+POST /Quran/QuranServices.asmx HTTP/1.1
+
+Host: elrazi.azurewebsites.net
+
+Content-Type: text/xml; charset=utf-8
+
+Content-Length: length
+
+SOAPAction: "http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByNo"
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+soap:Body
+
+<SrchQuranByNo xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+
+  <surahPar>int</surahPar>
+  
+  <ayahPar>int</ayahPar>
+  
+  <tfsrLangPar>int</tfsrLangPar>
+  
+</SrchQuranByNo>
+</soap:Body>
+
+</soap:Envelope>
+
+                                   ................................................     
+SOAP Responses:
+
+The response is text containing the verse and translation in the chosen language
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+soap:Body
+
+<SrchQuranByNoResponse xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+
+  <SrchQuranByNoResult>string</SrchQuranByNoResult>
+  
+</SrchQuranByNoResponse>
+</soap:Body>
+
+</soap:Envelope>
+
+                                   ................................................     
