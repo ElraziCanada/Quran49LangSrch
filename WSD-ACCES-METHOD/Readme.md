@@ -168,3 +168,69 @@ soap:Body
 </soap:Envelope>
 
                                    ................................................     
+
+QURAN Ibn Manzour Arabic Tongue Translation
+
+Test
+
+The test form is only available for requests from the local machine.
+
+SOAP Request
+
+The following is a sample SOAP 1.1 request and response. The placeholders shown need to be replaced with actual values.
+
+POST /Quran/QuranServices.asmx HTTP/1.1
+
+Host: elrazi.azurewebsites.net
+
+Content-Type: text/xml; charset=utf-8
+
+Content-Length: length
+
+SOAPAction: "http://elrazi.azurewebsites.net/QuranMlngDg19/ibnMnzTransQuran"
+
+                                   ................................................     
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+  <soap:Body>
+  
+    <ibnMnzTransQuran xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+    
+      <surahPar>int</surahPar>
+      
+      <ayahPar>int</ayahPar>
+      
+    </ibnMnzTransQuran>
+    
+  </soap:Body>
+  
+</soap:Envelope>
+
+
+                                   ................................................     
+
+SOAP Response
+
+                                   ................................................     
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+
+  <soap:Body>
+  
+    <ibnMnzTransQuranResponse xmlns="http://elrazi.azurewebsites.net/QuranMlngDg19/">
+    
+      <ibnMnzTransQuranResult>string</ibnMnzTransQuranResult>
+      
+    </ibnMnzTransQuranResponse>
+    
+  </soap:Body>
+  
+</soap:Envelope>
+
+                                   ................................................     
+
