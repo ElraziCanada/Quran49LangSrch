@@ -37,8 +37,7 @@ Quran-Services (WSDSL)
 The following operations are supported. For a formal definition, please review the Service Description.
 
 Testing SrchQuranByText - QURAN Search Engine By Text
-
-http://elrazi.azurewebsites.net/QuranMlngDg19/SrchQuranByText
+http://elrazi.azurewebsites.net/Quran/QuranSrchByText.html
 
 
                                        ................................................     
